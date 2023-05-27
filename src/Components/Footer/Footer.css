@@ -1,0 +1,80 @@
+footer{
+    width: 100%;
+    height: 377px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+}
+.footer__info{
+    width: 1248px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+.info__part{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.info__part1{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.info__h1{
+    font-weight: 700;
+    font-size: 22px;
+}
+.info__h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #EEEEEE;
+    line-height: 26px;
+    margin-top: 27px;
+}
+.info__txt{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 22px;
+    margin-right: 74px;
+}
+.info__social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info__img{
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+    margin-right: 13px;
+}
+.twiter__info{
+    background-image: url(../img/twitter-ico.png.png);
+}
+.gitHub__info{
+    background-image: url(../img/github-ico.png.png);
+}
+.linkedIn__info{
+    background-image: url(../img/linkedin-ico.png.png);
+}
+.youTube__info{
+    background-image: url(../img/yt-ico.png.png);
+}
+hr{
+    width: 1248px;
+    background-color: #3c3c3c;
+}
+.copyright{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 44px;
+}
